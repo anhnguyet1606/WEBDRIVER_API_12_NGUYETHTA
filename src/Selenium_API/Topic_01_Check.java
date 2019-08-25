@@ -45,6 +45,7 @@ public class Topic_01_Check {
   @AfterClass
   public void afterClass() {
 	  System.out.println("Post condition:Close");
+	  System.out.println("Check intergrate Slack with gitbub");
 	  driver.quit();
   }
 
