@@ -9,9 +9,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+
 
 public class Topic_05_Exercise {
 	WebDriver driver;
@@ -28,6 +26,7 @@ public class Topic_05_Exercise {
 		driver=new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
+	
 	@Test
 	public void TC_01_IsDisplayed () {
 		driver.get("https://daominhdam.github.io/basic-form/index.html");
@@ -49,7 +48,7 @@ public class Topic_05_Exercise {
 		
 	}
 	@Test
-	public void TC_02_IsEnabled(By by) {
+	public void TC_02_IsEnabled() {
 		driver.get("https://daominhdam.github.io/basic-form/index.html");
 		
 		Assert.assertTrue(isElementEnabled(emailTextBox));
@@ -60,7 +59,7 @@ public class Topic_05_Exercise {
 		
 	}
 	@Test 
-	public void TC_03_IsSelected(By by) {
+	public void TC_03_IsSelected() {
 		clickToElement(ageOver18Radio);
 		clickToElement(developmentCheckBox);
 		
