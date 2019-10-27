@@ -13,7 +13,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Topic_16_WebDriverWait_TCAjax {
+public class Topic_16_WebDriverWait_V_TCAjax {
 
 	WebDriver driver;
 	WebDriverWait explicitWait;

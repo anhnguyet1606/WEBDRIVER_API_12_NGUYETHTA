@@ -12,7 +12,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Topic_16_WebDriver_Wait_Implicit {
+public class Topic_16_WebDriver_Wait_III_Implicit {
 
 	WebDriver driver;
 	By startButton=By.xpath("//button[text()='Start']");
