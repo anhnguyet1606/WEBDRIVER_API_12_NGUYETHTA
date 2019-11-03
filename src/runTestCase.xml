@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Run on FIREFOX">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testNG.TC_05_DataProvider"/>
+    </classes>
+    </test>
+    
+    <test name="Run on CHROME">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testNG.TC_05_DataProvider"/>
+    </classes>
+    
+    
+  </test> 
+</suite> <!-- Suite -->
